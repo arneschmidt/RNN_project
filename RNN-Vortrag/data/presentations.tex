@@ -1,0 +1,125 @@
+\documentclass[11pt]{beamer}
+\useinnertheme{rectangles}
+%\usepackage{paralist} % for compactitem    conflicts with enumerate!!!!!!!
+\usepackage{graphicx}
+\usetheme{Warsaw}
+
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.9}
+\definecolor{dark-red}{HTML}{990000}
+\setbeamertemplate{headline}{}
+\setbeamercolor{frametitle}{fg=dark-red,bg=light-gray}
+\setbeamercolor{author in head/foot}{bg=dark-red}
+
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=green!60!black}
+
+\setbeamercolor{structure}{fg=dark-red}
+
+\setbeamercolor{background canvas}{parent=normal text}
+\setbeamercolor{background}{parent=background canvas}
+
+\setbeamercolor{palette primary}{fg=white,bg=white} % changed this
+\setbeamercolor{palette secondary}{fg=black, bg=green!60!black} % changed this
+\setbeamercolor{palette tertiary}{} %
+
+\setbeamertemplate{itemize item}[triangle]
+%\setbeamertemplate{itemize item}[square]    %%% for big square in itemize
+\setbeamertemplate{itemize subitem}{\tiny\raise0.5ex\hbox{\rule{0.5em}{0.5em}}}
+%\setbeamertemplate{itemize subitme}[circle]   %% circle in subitem
+
+\setbeamertemplate{enumerate items}[square]
+
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamercolor{block title}{fg=white, bg=dark-red}
+\setbeamercolor{block body}{fg=black, bg=light-gray}
+
+\setbeamertemplate{section in toc}{%
+  {\color{dark-red}}~\inserttocsection}
+
+\setbeamertemplate{subsection in toc}{%
+  \hspace{1.2em}{\color{dark-red}\rule[0.3ex]{3pt}{3pt}}~\inserttocsubsection\par}
+
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.35\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{frametitle}%
+    \usebeamerfont{title in head/foot}\insertsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.35\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{date in head/foot}
+    \insertinstitute
+   %%%%%%%%%%%%%% frame numbers %%%%%%%%%%%%%
+   % \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\setbeamertemplate{frametitle}
+{
+	\vspace{1.5ex}
+    \nointerlineskip
+    \begin{beamercolorbox}[rounded=true,left,wd=\paperwidth]{frametitle}
+        \vbox{}
+        \strut\insertframetitle\strut
+    \end{beamercolorbox}
+}
+\setbeamertemplate{title page}
+{
+	\vspace*{10pt}
+	\parbox{0.45\linewidth}{
+		\hspace*{-100pt}
+    	\begin{beamercolorbox}[rounded=true,right, wd=0.45\paperwidth, ht=0.6em, dp=0.1em]
+    	{frametitle}
+			\usebeamerfont{author}
+        	\vbox{}
+        	\hspace*{70pt}\hfill\strut\insertdate\strut\hspace*{5pt}
+    	\end{beamercolorbox}
+    }	
+	\parbox{0.5\linewidth}{
+		\hfill
+		\vspace*{-30pt}
+		\placelogotrue
+		\hfill\insertlogo
+		\placelogofalse
+		\hspace*{-30pt}
+	}\\
+    \vfill
+    \vspace*{160pt}
+	\hspace*{-100pt}
+	\begin{beamercolorbox}[rounded=true,right, wd=0.9\paperwidth]{frametitle}%
+		\usebeamerfont{title}
+        \vbox{}
+        \hspace*{100pt}\hfill\strut\inserttitle\strut\hspace*{5pt}
+    \end{beamercolorbox}%
+    \\
+    \hspace*{-100pt}
+    \begin{beamercolorbox}[rounded=true,right, wd=0.9\paperwidth, ht=0.6em, dp=0.1em]
+    {author in head/foot}%
+		\usebeamerfont{author}
+        \vbox{}
+        \hspace*{100pt}\hfill\strut\insertauthor\strut\hspace*{5pt}
+    \end{beamercolorbox}%
+
+}
+
+\setbeamertemplate{section page}
+{
+
+
+    \vfill
+    \vspace*{160pt}
+	\hspace*{-100pt}
+	\begin{beamercolorbox}[rounded=true,right, wd=0.9\paperwidth]{frametitle}%
+		\usebeamerfont{title}
+        \vbox{}
+        \hspace*{100pt}\hfill\strut\insertsection\strut\hspace*{5pt}
+    \end{beamercolorbox}%
+
+}
