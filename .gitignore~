@@ -1,0 +1,5 @@
+raw_images/
+venv/
+.idea/
+__pycache__/
+trained_models/
