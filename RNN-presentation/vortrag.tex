@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{tikz, tkz-graph}
+\usepackage{url}
 \usetikzlibrary{graphs,fit}
 \usetikzlibrary{positioning}   % for [right=of ..] etc.
 \author{Ansgar Rössig, Arne Schmidt}
@@ -790,17 +791,99 @@ Light-sensors to follow the black line, webcam to take pictures
 \end{tikzpicture}
 \end{frame}
 
-\begin{frame}{Results}
+\begin{frame}{Programming: Tensorflow (ML-library for python)}
+\begin{itemize}
+\item really easy to use
+\item computational efficient
+\item builds 'graph' of the neural network which consists of optimized operations
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Code}
+All available under: \url{https://github.com/arneschmidt/RNN_project/}\\ 
+Feel free to change the RNN and try things out!
+\end{frame}
+
+\begin{frame}{First results}
+Comparison of RNN with normal CNN:\\
 Pixelwise accuracy:\\
 Image only: 92.45 \\
 Image+previous segmentation (RNN): 98.64 \\
 (same architecture and 10.000 training steps)
 \end{frame}
 
-\begin{frame}{}
+\begin{frame}{Training procedure}
+1. 5000 iterations with teacher forcing, batches of 10 images\\
+2. 5000 iterations with sequences of 5 images\\
+3. 5000 iterations with sequences of 10 images\\
 \end{frame}
 
-\begin{frame}{}
+\begin{frame}{After 0 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-0.png}\\ 
+\end{frame}
+
+\begin{frame}{After 100 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-100.png}\\ 
+\end{frame}
+
+\begin{frame}{After 200 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-200.png}\\ 
+\end{frame}
+
+\begin{frame}{After 300 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-300.png}\\ 
+\end{frame}
+
+\begin{frame}{After 400 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-400.png}\\ 
+\end{frame}
+
+\begin{frame}{After 500 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-500.png}\\ 
+\end{frame}
+
+\begin{frame}{After 600 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-600.png}\\ 
+\end{frame}
+
+\begin{frame}{After 700 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-700.png}\\ 
+\end{frame}
+
+\begin{frame}{After 800 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-800.png}\\ 
+\end{frame}
+
+\begin{frame}{After 900 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-900.png}\\ 
+\end{frame}
+
+\begin{frame}{After 1000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-1000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 2000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-2000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 3000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-3000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 4000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-4000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 5000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-5000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 10000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-10000.png}\\ 
+\end{frame}
+
+\begin{frame}{After 15000 iterations}
+\includegraphics[height=8.0cm]{data/activations/output-15000.png}\\ 
 \end{frame}
 
 \section*{Final Remarks}
