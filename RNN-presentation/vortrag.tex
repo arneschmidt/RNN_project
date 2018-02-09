@@ -1,4 +1,4 @@
-\input{data/presentations}
+\input{data/handout}
 
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
@@ -660,6 +660,15 @@ Idea:
 Source: (Great Blog!) http://colah.github.io/posts/2015-08-Understanding-LSTMs/ 
 \end{frame}
 
+\only<4|handout:1>{
+There are 3 gates at a standard LSTM:\\
+\begin{itemize}
+\item Forget-Gate: gate that can delete information of the state
+\item Input-Gate: decides, which values of the state are going to be updated with which information
+\item Output-Gate: creates output from the state and the input
+\end{itemize}
+}
+
 \begin{frame}{The Forget-Gate}
 \includegraphics[height=3.0cm]{data/LSTM3-focus-f.png}\\ 
 \end{frame}
@@ -676,7 +685,7 @@ Source: (Great Blog!) http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 \includegraphics[height=3.0cm]{data/LSTM3-focus-o.png}\\ 
 \end{frame}
 
-\section{Hands on Programming}
+\section{Programming Project}
 \begin{frame}
 \sectionpage
 \end{frame}
@@ -684,17 +693,20 @@ Source: (Great Blog!) http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 \begin{frame}{The Real World Problem}
 Semantic Segmentation\\
 \includegraphics[height=5.0cm]{data/segnet.jpg}\\ 
-Source: University of Cambridge
+Source: University of Cambridge\\
+\only<5|handout:1>{
+Each pixel from a camera image should be annotated with a class ("tree","car","street",..). This technique is neccessary if it is not only important WHAT objects you can see in an image but also WHERE they are, for example in the case of autonomous cars.
+}
 \end{frame}
 
 \begin{frame}{My Toy-Example}
-\includegraphics[height=3.0cm]{data/greyimage.jpg} ..Greyscale Image\\ 
-\includegraphics[height=3.0cm]{data/segmentation.jpg} ..Segmentation: Road- Not Road\\ 
+\includegraphics[height=3.0cm]{data/greyimage.jpg} \t Greyscale Image\\ 
+\includegraphics[height=3.0cm]{data/segmentation.jpg} \t Segmentation: Road- Not Road\\ 
 \end{frame}
 
 \begin{frame}{The robot car}
-[IMAGE]\\ 
-Light-sensors to follow the black line, webcam to take pictures
+\includegraphics[height=6.0cm]{data/robot.jpg}\\ 
+Light-sensors to follow the black line, webcam to take pictures.
 \end{frame}
 
 \begin{frame}{Idea}
@@ -725,6 +737,9 @@ Light-sensors to follow the black line, webcam to take pictures
   	\Edge[](h5)(o5)
   	\Edge[](o4)(h5)
 \end{tikzpicture}
+\only<5|handout:2>{
+The aim is to construct an RNN which obtains the previous segmentation and moving direction as well as the actual image as an input. This network is than able to interpret an image in the context of a sequence of images.
+}
 \end{frame}
 
 \begin{frame}{Challenges}
@@ -758,8 +773,19 @@ Light-sensors to follow the black line, webcam to take pictures
   	\Edge[](h5)(o5)
   	\Edge[](o4)(h5)
 \end{tikzpicture}
-\end{frame}
 
+\only<5|handout:3>{
+From greyscale images the trainingset was generated:
+\begin{itemize}
+\item the input images are the pictures distorted with a random constant value
+\item the ground truth ("labels") are generated with a simple threshold in the black value
+\end{itemize}
+
+Why so complicated?\\
+The ground truth needs to be generated automatically, because it is not possible to obatain enough training data when the data is labled by hand.\\
+Still the network should learn more than a simple threshold (too easy!).
+}
+\end{frame}
 
 \begin{frame}{Architecture of the RNN}
 \begin{tikzpicture}[->, scale=0.6]
@@ -802,6 +828,14 @@ Light-sensors to follow the black line, webcam to take pictures
 \begin{frame}{Code}
 All available under: \url{https://github.com/arneschmidt/RNN_project/}\\ 
 Feel free to change the RNN and try things out!
+\only<5|handout:4>{
+Ideas to try out:
+\begin{itemize}
+\item different architecture (change number of layers, stride, filters etc.)
+\item use an LSTM for the prediction of the direction
+\item use an LSTM for the segmentation
+\end{itemize}
+}
 \end{frame}
 
 \begin{frame}{First results}
