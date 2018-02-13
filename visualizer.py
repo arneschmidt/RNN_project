@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 def show_image(image):
     arr = np.asarray(image)
     plt.imshow(arr, cmap='gray', vmin = 0, vmax = 255)
@@ -12,7 +11,8 @@ def show_images(images):
     for image_i in range(len(images)):
         images[image_i] = np.pad(images[image_i], pad_width=5, mode='constant', constant_values=(0., 0.))
     images = np.concatenate(images, axis=1)
-    plt.figure(1)
+    output_plot = plt.figure(1)
+    output_plot.suptitle('Previous Segmentation, Input, Ground Truth and Output', fontsize=14, fontweight='bold')
     show_image(images)
 
 def show_activations(layer_tensors, number_of_filters):
@@ -24,10 +24,12 @@ def show_activations(layer_tensors, number_of_filters):
             activation = np.pad(tensor[activation_i], pad_width=5, mode='constant', constant_values=(0.,0.))
             image[70*tensor_i:70*tensor_i+70, 90*activation_i:90*activation_i+90] = activation
 
-    plt.figure(2)
+    activations_plot = plt.figure(2)
+    activations_plot.suptitle('Activations of all layers', fontsize=14, fontweight='bold')
     show_image(image)
 
 def show_inference(image1, image2):
     images = np.concatenate([image1, image2], axis=0)
-    plt.figure(3)
+    inference_plot = plt.figure(3)
+    inference_plot.suptitle('Inference: Input and Segmentation', fontsize=14, fontweight='bold')
     show_image(images)

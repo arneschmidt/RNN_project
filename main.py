@@ -2,17 +2,18 @@ import image_input
 import timeit
 import time
 import tensorflow as tf
+import matplotlib.pyplot as plt
 import numpy as np
 import visualizer
 
 import net as net
 
-TRAINING_STEPS = 100
-BATCH_SIZE = 1
-SEQ_SIZE = 1
-MODE = 'predict' # choose: 'train_batch', 'train_seq', 'predict', 'test'
-MODELNAME = 'final_model'
-LOAD_CHECKPOINT = False
+TRAINING_STEPS = 5000
+BATCH_SIZE = 1 # batch size (only for train_batch)
+SEQ_SIZE = 1 # size of the sequence (only for train_seq)
+MODE = 'test' # choose: 'train_batch', 'train_seq', 'predict', 'test'
+MODELNAME = 'final_model' # name under which the model is saved/loaded
+LOAD_CHECKPOINT = True # choose weather model is loaded
 
 
 start = timeit.default_timer()
@@ -42,7 +43,6 @@ def main(unused_argv):
     y_gt_class = classify_by_threshold(y_gt, 120)
     y_gt_reshaped = tf.reshape(y_gt, [BATCH_SIZE * 60 * 80])
     y_gt_reshaped_class = classify_by_threshold(y_gt_reshaped, 120)
-
 
     loss = tf.nn.l2_loss(y_seg_reshaped - y_gt_reshaped)
 
@@ -121,36 +121,22 @@ def main(unused_argv):
                             x_image: image, x_prev_seg: seg_out, x_dir: dir, y_gt: seg_gt})
                 sum_accuracy += accuracy_out
 
-                #visualizer.show_inference(image[0], seg_out[0])
+                visualizer.show_inference(image[0], seg_out[0])
                 #time.sleep(0.2)
 
             test_accuracy = sum_accuracy / samples
             print("Test accuracy: ", test_accuracy)
 
         elif MODE == 'predict':
-            samples = 2000
-            image_seq, seg_gt_seq, dir_seq = image_input.get_test_data()
-            seg_out = [np.ones_like(image_seq[0])*255]
-            sum_accuracy = 0
-
-            for i in range(samples):
-
-                if i % 100 == 0:
-                    seg_out = [np.ones_like(image_seq[0]) * 255]
-                else:
-                    seg_out = [seg_gt_seq[i-1]]
-                image = [image_seq[i]]
-                seg_gt = [seg_gt_seq[i]]
-                dir = [dir_seq[i]]
+            for i in range(200):
+                image, seg_prev, seg_gt, dir = image_input.get_rand_train_batch(1)
 
                 train_accuracy, seg_out, seg_gt_out, seg_prev_out, image_out, hidden_layers_out = sess.run(
                     [accuracy, y_seg_class, y_gt_class, x_prev_seg, x_image, hidden_layers], feed_dict={
-                        x_image: image, x_prev_seg: seg_out, x_dir: dir, y_gt: seg_gt})
+                        x_image: image, x_prev_seg: seg_prev, x_dir: dir, y_gt: seg_gt})
                 visualizer.show_images([seg_prev_out[0], image_out[0], seg_gt_out[0], seg_out[0]])
                 visualizer.show_activations(hidden_layers_out, 5)
-                wait = input("Continue?")
-                #timeit.sleep(2.0)
-                #time.sleep(8)
+                input("Continue?")
 
 if __name__ == "__main__":
     tf.app.run()
