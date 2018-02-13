@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{CaEtAl15}
+Giovanni~S. Carmantini, Peter~Beim Graben, Mathieu Desroches, and Serafim
+  Rodrigues.
+\newblock Turing computation with recurrent artificial neural networks.
+\newblock In {\em Proceedings of the 2015th International Conference on
+  Cognitive Computation: Integrating Neural and Symbolic Approaches - Volume
+  1583}, COCO'15, pages 1--9, Aachen, Germany, Germany, 2015. CEUR-WS.org.
+
+\bibitem{GoBeCo16}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{SiSo93}
+Hava Siegelmann and Eduardo Sontag.
+\newblock Analog computation via neural networks.
+\newblock {\em Theoretical Computer Science}, 131:331--360, 12 1993.
+
+\bibitem{SiSo95}
+Hava Siegelmann and Eduardo Sontag.
+\newblock On the computational power of neural nets.
+\newblock {\em Journal of Computer and System Sciences}, 50(1):132 -- 150,
+  1995.
+
+\end{thebibliography}

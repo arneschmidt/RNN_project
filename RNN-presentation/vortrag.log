@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.12.27)  9 FEB 2018 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.12.27)  13 FEB 2018 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./vortrag.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 9 languages loaded.
-(./data/handout.tex (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
+(./data/presentations.tex (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
 )
@@ -660,37 +660,7 @@ Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemedefault.st
 y
 Package: beamerouterthemedefault 2012/10/02  (rcs-revision 5ed0f4010e8a)
-))) (/usr/share/texmf/tex/latex/pgf/utilities/pgfpages.sty
-Package: pgfpages 2004/11/05 ver 0.01
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count153
-\calc@Bcount=\count154
-\calc@Adimen=\dimen185
-\calc@Bdimen=\dimen186
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count155
-\calc@Cskip=\skip59
-)
-\pgf@logicalpages=\count156
-\pgf@firstshipout=\count157
-\pgf@lastshipout=\count158
-\pgf@currentshipout=\count159
-\pgf@cpn=\count160
-\pgf@shipoutnextto=\count161
-\pgfphysicalheight=\dimen187
-\pgfphysicalwidth=\dimen188
-\pgfpages@shipoutbox=\box53
-)
-\pgfpages@box@1=\box54
-\pgfpages@box@2=\box55
-\pgfpages@box@3=\box56
-\pgfpages@box@4=\box57
-
+)))
 (/usr/share/texmf/tex/latex/beamer/base/themes/inner/beamerinnerthemerectangles
 .sty
 Package: beamerinnerthemerectangles 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -941,8 +911,8 @@ aphy)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
 LaTeX Info: Redefining \textlatin on input line 137.
-\babel@savecnt=\count162
-\U@D=\dimen189
+\babel@savecnt=\count153
+\U@D=\dimen185
 )
 \l@austrian = a dialect from \language\l@german 
 Package babel Info: Making " an active character on input line 107.
@@ -960,15 +930,15 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box53
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -978,8 +948,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -988,29 +958,29 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count163
-\pgfplotmarksize=\dimen194
+\pgf@plot@mark@count=\count154
+\pgfplotmarksize=\dimen190
 )
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen200
-\tikz@figbox=\box59
-\tikz@tempbox=\box60
-\tikztreelevel=\count164
-\tikznumberofchildren=\count165
-\tikznumberofcurrentchild=\count166
-\tikz@fig@count=\count167
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikzleveldistance=\dimen195
+\tikzsiblingdistance=\dimen196
+\tikz@figbox=\box54
+\tikz@tempbox=\box55
+\tikztreelevel=\count155
+\tikznumberofchildren=\count156
+\tikznumberofcurrentchild=\count157
+\tikz@fig@count=\count158
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count168
-\pgfmatrixcurrentcolumn=\count169
-\pgf@matrix@numberofcolumns=\count170
+\pgfmatrixcurrentrow=\count159
+\pgfmatrixcurrentcolumn=\count160
+\pgf@matrix@numberofcolumns=\count161
 )
-\tikz@expandcount=\count171
+\tikz@expandcount=\count162
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -1019,7 +989,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 Package: tkz-graph 2011/06/01 ctan v 1.00 base for graphs
 (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count172
+\et@xins=\count163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -1030,7 +1000,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks44
 \XKV@tempa@toks=\toks45
-\XKV@depth=\count173
+\XKV@depth=\count164
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
@@ -1039,18 +1009,18 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen201
+\arrowsize=\dimen197
 ))
-\c@tkz@gr@a=\count174
-\c@tkz@gr@b=\count175
-\c@tkz@gr@c=\count176
-\c@tkz@gr@e=\count177
-\c@tkz@gr@d=\count178
-\c@tkz@gr@p=\count179
-\c@tkz@gr@i=\count180
-\c@tkz@gr@n=\count181
-\c@tkz@gr@ta=\count182
-\c@tkz@gr@tb=\count183
+\c@tkz@gr@a=\count165
+\c@tkz@gr@b=\count166
+\c@tkz@gr@c=\count167
+\c@tkz@gr@e=\count168
+\c@tkz@gr@d=\count169
+\c@tkz@gr@p=\count170
+\c@tkz@gr@i=\count171
+\c@tkz@gr@n=\count172
+\c@tkz@gr@ta=\count173
+\c@tkz@gr@tb=\count174
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/graphs/tikzlibra
 rygraphs.code.tex
@@ -1117,16 +1087,16 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
-\scratchdimen=\dimen202
-\scratchbox=\box61
-\nofMPsegments=\count185
-\nofMParguments=\count186
+\scratchcounter=\count175
+\scratchdimen=\dimen198
+\scratchbox=\box56
+\nofMPsegments=\count176
+\nofMParguments=\count177
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count187
-\MPscratchDim=\dimen203
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
+\MPscratchCnt=\count178
+\MPscratchDim=\dimen199
+\MPnumerator=\count179
+\makeMPintoPDFobject=\count180
 \everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1144,7 +1114,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box62
+\AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1153,7 +1123,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count190
+\c@section@level=\count181
 )
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
@@ -1252,7 +1222,14 @@ Package pdftex.def Info: data/tu_logo.png used on input line 29.
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 29.
 
-(./vortrag.toc)
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./data/tu_logo.png>]
+(./vortrag.toc) [2
+
+] [3
+
+]
 Overfull \hbox (25.31393pt too wide) in paragraph at lines 130--130
 [][] 
  []
@@ -1261,13 +1238,11 @@ Overfull \hbox (25.31393pt too wide) in paragraph at lines 130--130
 Overfull \vbox (11.55598pt too high) detected at line 130
  []
 
-[5
+[4
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+] [5
 
-
-
- <./data/tu_logo.png>]
+]
 Overfull \hbox (12.17863pt too wide) in paragraph at lines 240--240
 []|[] 
  []
@@ -1276,16 +1251,15 @@ Overfull \hbox (12.17863pt too wide) in paragraph at lines 240--240
 Overfull \vbox (7.25084pt too high) detected at line 240
  []
 
-[9
-
-
-
+[6
 
 ]
 Overfull \vbox (7.25084pt too high) detected at line 240
  []
 
+[7
 
+]
 Overfull \vbox (15.70316pt too high) detected at line 240
  []
 
@@ -1293,71 +1267,63 @@ Overfull \vbox (15.70316pt too high) detected at line 240
 Overfull \vbox (7.25084pt too high) detected at line 240
  []
 
+[8
 
+]
 Overfull \hbox (25.31393pt too wide) in paragraph at lines 305--305
 [][]  
  []
 
-[13
+[9
 
+] [10
 
+] [11
 
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
 
 ] [17
 
+] [18
 
+] [19
 
+] [20
 
-]
+] [21
 
-LaTeX Warning: Citation `SiSo95' on page 18 undefined on input line 380.
+] [22
 
-[21
-
-
-
-
-]
-
-LaTeX Warning: Citation `SiSo93' on page 23 undefined on input line 442.
-
-[25
-
-
-
-
-] [29
-
-
-
+] [23
 
 ]
-
-LaTeX Warning: Citation `CaEtAl15' on page 31 undefined on input line 533.
-
-
-LaTeX Warning: Citation `CaEtAl15' on page 32 undefined on input line 541.
-
-[33
-
-
-
-
-] <data/graph_model_1.png, id=200, 888.31876pt x 432.61626pt>
+<data/graph_model_1.png, id=224, 888.31876pt x 432.61626pt>
 File: data/graph_model_1.png Graphic file (type png)
 
 <use data/graph_model_1.png>
 Package pdftex.def Info: data/graph_model_1.png used on input line 556.
 (pdftex.def)             Requested size: 233.69547pt x 113.81102pt.
+ [24
 
-<data/graph_model_2.png, id=202, 819.06pt x 246.9225pt>
+ <./data/graph_model_1.png>]
+<data/graph_model_2.png, id=232, 819.06pt x 246.9225pt>
 File: data/graph_model_2.png Graphic file (type png)
 
 <use data/graph_model_2.png>
 Package pdftex.def Info: data/graph_model_2.png used on input line 567.
 (pdftex.def)             Requested size: 235.94658pt x 71.13188pt.
+ [25
 
-<data/bidirectional.png, id=205, 614.295pt x 670.505pt>
+ <./data/graph_model_2.png>]
+<data/bidirectional.png, id=241, 614.295pt x 670.505pt>
 File: data/bidirectional.png Graphic file (type png)
 
 <use data/bidirectional.png>
@@ -1367,13 +1333,10 @@ Package pdftex.def Info: data/bidirectional.png used on input line 580.
 Overfull \vbox (7.25084pt too high) detected at line 580
  []
 
-[37
+[26
 
-
-
-
- <./data/graph_model_1.png> <./data/graph_model_2.png>]
-<data/encode-decode.png, id=220, 754.82pt x 682.55pt>
+ <./data/bidirectional.png>]
+<data/encode-decode.png, id=249, 754.82pt x 682.55pt>
 File: data/encode-decode.png Graphic file (type png)
 
 <use data/encode-decode.png>
@@ -1383,7 +1346,10 @@ Package pdftex.def Info: data/encode-decode.png used on input line 594.
 Overfull \vbox (7.25084pt too high) detected at line 594
  []
 
-<data/deep-rnn.png, id=223, 711.65875pt x 593.21625pt>
+[27
+
+ <./data/encode-decode.png>]
+<data/deep-rnn.png, id=257, 711.65875pt x 593.21625pt>
 File: data/deep-rnn.png Graphic file (type png)
  <use data/deep-rnn.png>
 Package pdftex.def Info: data/deep-rnn.png used on input line 607.
@@ -1392,13 +1358,10 @@ Package pdftex.def Info: data/deep-rnn.png used on input line 607.
 Overfull \vbox (7.25084pt too high) detected at line 607
  []
 
-[41
+[28
 
-
-
-
- <./data/bidirectional.png> <./data/encode-decode.png>]
-<data/recursive.png, id=239, 648.4225pt x 684.5575pt>
+ <./data/deep-rnn.png>]
+<data/recursive.png, id=265, 648.4225pt x 684.5575pt>
 File: data/recursive.png Graphic file (type png)
  <use data/recursive.png>
 Package pdftex.def Info: data/recursive.png used on input line 619.
@@ -1407,609 +1370,496 @@ Package pdftex.def Info: data/recursive.png used on input line 619.
 Overfull \vbox (7.25084pt too high) detected at line 619
  []
 
-[45
+[29
 
+ <./data/recursive.png>] [30
 
-
-
- <./data/deep-rnn.png> <./data/recursive.png>]
-<data/RNN-longtermdependencies.png, id=257, 911.68605pt x 314.01315pt>
+]
+<data/RNN-longtermdependencies.png, id=279, 911.68605pt x 314.01315pt>
 File: data/RNN-longtermdependencies.png Graphic file (type png)
 
 <use data/RNN-longtermdependencies.png>
 Package pdftex.def Info: data/RNN-longtermdependencies.png used on input line 6
 39.
 (pdftex.def)             Requested size: 206.51163pt x 71.13188pt.
+ [31
 
-<data/LSTM3-SimpleRNN.png, id=261, 810.1467pt x 303.17265pt>
+ <./data/RNN-longtermdependencies.png>] [32
+
+] [33
+
+] <data/LSTM3-SimpleRNN.png, id=300, 810.1467pt x 303.17265pt>
 File: data/LSTM3-SimpleRNN.png Graphic file (type png)
 
 <use data/LSTM3-SimpleRNN.png>
 Package pdftex.def Info: data/LSTM3-SimpleRNN.png used on input line 661.
 (pdftex.def)             Requested size: 228.08807pt x 85.35826pt.
 
-<data/LSTM3-chain.png, id=262, 806.89455pt x 303.17265pt>
+<data/LSTM3-chain.png, id=301, 806.89455pt x 303.17265pt>
 File: data/LSTM3-chain.png Graphic file (type png)
 
 <use data/LSTM3-chain.png>
 Package pdftex.def Info: data/LSTM3-chain.png used on input line 661.
 (pdftex.def)             Requested size: 227.17245pt x 85.35826pt.
- [49
+ [34
 
-
-
-
- <./data/RNN-longtermdependencies.png>]
-<data/LSTM3-focus-f.png, id=275, 659.8251pt x 203.8014pt>
+ <./data/LSTM3-SimpleRNN.png> <./data/LSTM3-chain.png>] <data/LSTM3-focus-f.png
+, id=310, 659.8251pt x 203.8014pt>
 File: data/LSTM3-focus-f.png Graphic file (type png)
 
 <use data/LSTM3-focus-f.png>
 Package pdftex.def Info: data/LSTM3-focus-f.png used on input line 674.
 (pdftex.def)             Requested size: 276.35947pt x 85.35826pt.
+ [35
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<data/LSTM3-focus-i.png, id=278, 659.8251pt x 203.8014pt>
+ <./data/LSTM3-focus-f.png>]
+<data/LSTM3-focus-i.png, id=319, 659.8251pt x 203.8014pt>
 File: data/LSTM3-focus-i.png Graphic file (type png)
 
 <use data/LSTM3-focus-i.png>
 Package pdftex.def Info: data/LSTM3-focus-i.png used on input line 678.
 (pdftex.def)             Requested size: 276.35947pt x 85.35826pt.
+ [36
 
-<data/LSTM3-focus-C.png, id=280, 659.8251pt x 203.8014pt>
+ <./data/LSTM3-focus-i.png>]
+<data/LSTM3-focus-C.png, id=327, 659.8251pt x 203.8014pt>
 File: data/LSTM3-focus-C.png Graphic file (type png)
 
 <use data/LSTM3-focus-C.png>
 Package pdftex.def Info: data/LSTM3-focus-C.png used on input line 682.
 (pdftex.def)             Requested size: 276.35947pt x 85.35826pt.
- [53
+ [37
 
-
-
- <./data/LSTM3-SimpleRNN.png> <./data/LSTM3-chain.png> <./data/LSTM3-focus-f.pn
-g> <./data/LSTM3-focus-i.png>]
-<data/LSTM3-focus-o.png, id=299, 659.8251pt x 203.8014pt>
+ <./data/LSTM3-focus-C.png>]
+<data/LSTM3-focus-o.png, id=336, 659.8251pt x 203.8014pt>
 File: data/LSTM3-focus-o.png Graphic file (type png)
 
 <use data/LSTM3-focus-o.png>
 Package pdftex.def Info: data/LSTM3-focus-o.png used on input line 686.
 (pdftex.def)             Requested size: 276.35947pt x 85.35826pt.
- <data/segnet.jpg, id=303, 702.625pt x 395.4775pt>
-File: data/segnet.jpg Graphic file (type jpg)
+ [38
 
-<use data/segnet.jpg>
-Package pdftex.def Info: data/segnet.jpg used on input line 700.
+ <./data/LSTM3-focus-o.png>] [39
+
+]
+<data/segnet.jpg, id=350, 702.625pt x 395.4775pt>
+File: data/segnet.jpg Graphic file (type jpg)
+ <use data/segnet.jpg>
+Package pdftex.def Info: data/segnet.jpg used on input line 697.
 (pdftex.def)             Requested size: 252.75182pt x 142.26378pt.
 
-Overfull \vbox (7.74988pt too high) detected at line 700
- []
+[40
 
-<data/greyimage.jpg, id=305, 80.3pt x 60.225pt>
-File: data/greyimage.jpg Graphic file (type jpg)
- <use data/greyimage.jpg>
-Package pdftex.def Info: data/greyimage.jpg used on input line 705.
-(pdftex.def)             Requested size: 113.82214pt x 85.35826pt.
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 705
-.
-LaTeX Font Info:    No file OMLcmss.fd. on input line 705.
-
-
-LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead on input line 705.
-
-<data/segmentation.jpg, id=306, 80.3pt x 60.225pt>
-File: data/segmentation.jpg Graphic file (type jpg)
- <use data/segmentation.jpg>
-Package pdftex.def Info: data/segmentation.jpg used on input line 705.
-(pdftex.def)             Requested size: 113.82214pt x 85.35826pt.
-
-[57
-
-
-
-
- <./data/LSTM3-focus-C.png> <./data/LSTM3-focus-o.png> <./data/segnet.jpg>]
-<data/robot.jpg, id=320, 1201.48875pt x 675.52374pt>
-File: data/robot.jpg Graphic file (type jpg)
- <use data/robot.jpg>
-Package pdftex.def Info: data/robot.jpg used on input line 710.
-(pdftex.def)             Requested size: 303.63477pt x 170.71652pt.
+ <./data/segnet.jpg>] <data/greyimage.jpg, id=357, 80.3pt x 60.225pt>
 File: data/greyimage.jpg Graphic file (type jpg)
 
 <use data/greyimage.jpg>
-Package pdftex.def Info: data/greyimage.jpg used on input line 743.
+Package pdftex.def Info: data/greyimage.jpg used on input line 706.
+(pdftex.def)             Requested size: 113.82214pt x 85.35826pt.
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 706
+.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 706.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead on input line 706.
+
+<data/segmentation.jpg, id=358, 80.3pt x 60.225pt>
+File: data/segmentation.jpg Graphic file (type jpg)
+ <use data/segmentation.jpg>
+Package pdftex.def Info: data/segmentation.jpg used on input line 706.
+(pdftex.def)             Requested size: 113.82214pt x 85.35826pt.
+
+[41
+
+ <./data/greyimage.jpg> <./data/segmentation.jpg>]
+<data/robot.jpg, id=365, 1201.48875pt x 675.52374pt>
+File: data/robot.jpg Graphic file (type jpg)
+ <use data/robot.jpg>
+Package pdftex.def Info: data/robot.jpg used on input line 711.
+(pdftex.def)             Requested size: 303.63477pt x 170.71652pt.
+
+[42
+
+ <./data/robot.jpg>]
+File: data/greyimage.jpg Graphic file (type jpg)
+ <use data/greyimage.jpg>
+Package pdftex.def Info: data/greyimage.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 File: data/segmentation.jpg Graphic file (type jpg)
  <use data/segmentation.jpg>
-Package pdftex.def Info: data/segmentation.jpg used on input line 743.
+Package pdftex.def Info: data/segmentation.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-<data/greyimage2.jpg, id=322, 80.3pt x 60.225pt>
+<data/greyimage2.jpg, id=372, 80.3pt x 60.225pt>
 File: data/greyimage2.jpg Graphic file (type jpg)
  <use data/greyimage2.jpg>
-Package pdftex.def Info: data/greyimage2.jpg used on input line 743.
+Package pdftex.def Info: data/greyimage2.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-<data/segmentation2.jpg, id=323, 80.3pt x 60.225pt>
+<data/segmentation2.jpg, id=373, 80.3pt x 60.225pt>
 File: data/segmentation2.jpg Graphic file (type jpg)
 
 <use data/segmentation2.jpg>
-Package pdftex.def Info: data/segmentation2.jpg used on input line 743.
+Package pdftex.def Info: data/segmentation2.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
- <data/greyimage3.jpg, id=324, 80.3pt x 60.225pt>
+ <data/greyimage3.jpg, id=374, 80.3pt x 60.225pt>
 File: data/greyimage3.jpg Graphic file (type jpg)
 
 <use data/greyimage3.jpg>
-Package pdftex.def Info: data/greyimage3.jpg used on input line 743.
+Package pdftex.def Info: data/greyimage3.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
- <data/segmentation3.jpg, id=325, 80.3pt x 60.225pt>
+ <data/segmentation3.jpg, id=375, 80.3pt x 60.225pt>
 File: data/segmentation3.jpg Graphic file (type jpg)
 
 <use data/segmentation3.jpg>
-Package pdftex.def Info: data/segmentation3.jpg used on input line 743.
+Package pdftex.def Info: data/segmentation3.jpg used on input line 741.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/greyimage.jpg Graphic file (type jpg)
- <use data/greyimage.jpg>
-Package pdftex.def Info: data/greyimage.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/segmentation.jpg Graphic file (type jpg)
+ [43
 
-<use data/segmentation.jpg>
-Package pdftex.def Info: data/segmentation.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/greyimage2.jpg Graphic file (type jpg)
- <use data/greyimage2.jpg>
-Package pdftex.def Info: data/greyimage2.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/segmentation2.jpg Graphic file (type jpg)
+ <./data/greyimage2.jpg> <./data/segmentation2.jpg> <./data/greyimage3.jpg> <./
+data/segmentation3.jpg>] [44
 
-<use data/segmentation2.jpg>
-Package pdftex.def Info: data/segmentation2.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/greyimage3.jpg Graphic file (type jpg)
- <use data/greyimage3.jpg>
-Package pdftex.def Info: data/greyimage3.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/segmentation3.jpg Graphic file (type jpg)
-
-<use data/segmentation3.jpg>
-Package pdftex.def Info: data/segmentation3.jpg used on input line 743.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
- [61
-
-
-
-
- <./data/greyimage.jpg> <./data/segmentation.jpg> <./data/robot.jpg> <./data/gr
-eyimage2.jpg> <./data/segmentation2.jpg> <./data/greyimage3.jpg> <./data/segmen
-tation3.jpg>]
-<data/47g.jpg, id=340, 80.3pt x 60.225pt>
+]
+<data/47g.jpg, id=389, 80.3pt x 60.225pt>
 File: data/47g.jpg Graphic file (type jpg)
  <use data/47g.jpg>
-Package pdftex.def Info: data/47g.jpg used on input line 788.
+Package pdftex.def Info: data/47g.jpg used on input line 778.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-<data/48g.jpg, id=341, 80.3pt x 60.225pt>
+<data/48g.jpg, id=390, 80.3pt x 60.225pt>
 File: data/48g.jpg Graphic file (type jpg)
  <use data/48g.jpg>
-Package pdftex.def Info: data/48g.jpg used on input line 788.
+Package pdftex.def Info: data/48g.jpg used on input line 778.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-<data/49g.jpg, id=342, 80.3pt x 60.225pt>
+<data/49g.jpg, id=391, 80.3pt x 60.225pt>
 File: data/49g.jpg Graphic file (type jpg)
  <use data/49g.jpg>
-Package pdftex.def Info: data/49g.jpg used on input line 788.
+Package pdftex.def Info: data/49g.jpg used on input line 778.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-<data/47gd.jpg, id=343, 80.3pt x 60.225pt>
+<data/47gd.jpg, id=392, 80.3pt x 60.225pt>
 File: data/47gd.jpg Graphic file (type jpg)
  <use data/47gd.jpg>
-Package pdftex.def Info: data/47gd.jpg used on input line 788.
+Package pdftex.def Info: data/47gd.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 
-<data/48gd.jpg, id=344, 80.3pt x 60.225pt>
+<data/48gd.jpg, id=393, 80.3pt x 60.225pt>
 File: data/48gd.jpg Graphic file (type jpg)
  <use data/48gd.jpg>
-Package pdftex.def Info: data/48gd.jpg used on input line 788.
+Package pdftex.def Info: data/48gd.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 
-<data/49gd.jpg, id=345, 80.3pt x 60.225pt>
+<data/49gd.jpg, id=394, 80.3pt x 60.225pt>
 File: data/49gd.jpg Graphic file (type jpg)
  <use data/49gd.jpg>
-Package pdftex.def Info: data/49gd.jpg used on input line 788.
+Package pdftex.def Info: data/49gd.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 
-<data/47s.jpg, id=346, 80.3pt x 60.225pt>
+<data/47s.jpg, id=395, 80.3pt x 60.225pt>
 File: data/47s.jpg Graphic file (type jpg)
  <use data/47s.jpg>
-Package pdftex.def Info: data/47s.jpg used on input line 788.
+Package pdftex.def Info: data/47s.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 
-<data/48s.jpg, id=347, 80.3pt x 60.225pt>
+<data/48s.jpg, id=396, 80.3pt x 60.225pt>
 File: data/48s.jpg Graphic file (type jpg)
  <use data/48s.jpg>
-Package pdftex.def Info: data/48s.jpg used on input line 788.
+Package pdftex.def Info: data/48s.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 
-<data/49s.jpg, id=348, 80.3pt x 60.225pt>
+<data/49s.jpg, id=397, 80.3pt x 60.225pt>
 File: data/49s.jpg Graphic file (type jpg)
  <use data/49s.jpg>
-Package pdftex.def Info: data/49s.jpg used on input line 788.
+Package pdftex.def Info: data/49s.jpg used on input line 778.
 (pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
 File: data/greyimage3.jpg Graphic file (type jpg)
 
 <use data/greyimage3.jpg>
-Package pdftex.def Info: data/greyimage3.jpg used on input line 788.
+Package pdftex.def Info: data/greyimage3.jpg used on input line 778.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 File: data/segmentation3.jpg Graphic file (type jpg)
  <use data/segmentation3.jpg>
-Package pdftex.def Info: data/segmentation3.jpg used on input line 788.
+Package pdftex.def Info: data/segmentation3.jpg used on input line 778.
 (pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
 
-Overfull \hbox (123.90546pt too wide) in paragraph at lines 788--788
+Overfull \hbox (123.90546pt too wide) in paragraph at lines 778--778
 [][]  
  []
 
-File: data/47g.jpg Graphic file (type jpg)
-<use data/47g.jpg>
-Package pdftex.def Info: data/47g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/48g.jpg Graphic file (type jpg)
- <use data/48g.jpg>
-Package pdftex.def Info: data/48g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/49g.jpg Graphic file (type jpg)
- <use data/49g.jpg>
-Package pdftex.def Info: data/49g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/47gd.jpg Graphic file (type jpg)
- <use data/47gd.jpg>
-Package pdftex.def Info: data/47gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48gd.jpg Graphic file (type jpg)
-
-<use data/48gd.jpg>
-Package pdftex.def Info: data/48gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/49gd.jpg Graphic file (type jpg)
- <use data/49gd.jpg>
-Package pdftex.def Info: data/49gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/47s.jpg Graphic file (type jpg)
- <use data/47s.jpg>
-Package pdftex.def Info: data/47s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48s.jpg Graphic file (type jpg)
- <use data/48s.jpg>
-Package pdftex.def Info: data/48s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/49s.jpg Graphic file (type jpg)
-
-<use data/49s.jpg>
-Package pdftex.def Info: data/49s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/greyimage3.jpg Graphic file (type jpg)
- <use data/greyimage3.jpg>
-Package pdftex.def Info: data/greyimage3.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/segmentation3.jpg Graphic file (type jpg)
- <use data/segmentation3.jpg>
-Package pdftex.def Info: data/segmentation3.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-
-Overfull \hbox (123.90546pt too wide) in paragraph at lines 788--788
-[][]  
- []
-
-File: data/47g.jpg Graphic file (type jpg)
-<use data/47g.jpg>
-Package pdftex.def Info: data/47g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/48g.jpg Graphic file (type jpg)
- <use data/48g.jpg>
-Package pdftex.def Info: data/48g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/49g.jpg Graphic file (type jpg)
- <use data/49g.jpg>
-Package pdftex.def Info: data/49g.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/47gd.jpg Graphic file (type jpg)
- <use data/47gd.jpg>
-Package pdftex.def Info: data/47gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48gd.jpg Graphic file (type jpg)
-
-<use data/48gd.jpg>
-Package pdftex.def Info: data/48gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/49gd.jpg Graphic file (type jpg)
- <use data/49gd.jpg>
-Package pdftex.def Info: data/49gd.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/47s.jpg Graphic file (type jpg)
- <use data/47s.jpg>
-Package pdftex.def Info: data/47s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48s.jpg Graphic file (type jpg)
- <use data/48s.jpg>
-Package pdftex.def Info: data/48s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/49s.jpg Graphic file (type jpg)
-
-<use data/49s.jpg>
-Package pdftex.def Info: data/49s.jpg used on input line 788.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/greyimage3.jpg Graphic file (type jpg)
- <use data/greyimage3.jpg>
-Package pdftex.def Info: data/greyimage3.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-File: data/segmentation3.jpg Graphic file (type jpg)
- <use data/segmentation3.jpg>
-Package pdftex.def Info: data/segmentation3.jpg used on input line 788.
-(pdftex.def)             Requested size: 56.90678pt x 42.67912pt.
-
-Overfull \hbox (123.90546pt too wide) in paragraph at lines 788--788
-[][]  
- []
-
-
-Overfull \vbox (133.69124pt too high) detected at line 788
- []
-
-File: data/47s.jpg Graphic file (type jpg)
-<use data/47s.jpg>
-Package pdftex.def Info: data/47s.jpg used on input line 818.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48g.jpg Graphic file (type jpg)
- <use data/48g.jpg>
-Package pdftex.def Info: data/48g.jpg used on input line 818.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
-File: data/48s.jpg Graphic file (type jpg)
- <use data/48s.jpg>
-Package pdftex.def Info: data/48s.jpg used on input line 818.
-(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
- [65
-
-
-
+[45
 
  <./data/47g.jpg> <./data/48g.jpg> <./data/49g.jpg> <./data/47gd.jpg> <./data/4
 8gd.jpg> <./data/49gd.jpg> <./data/47s.jpg> <./data/48s.jpg> <./data/49s.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 839.
+File: data/47s.jpg Graphic file (type jpg)
+ <use data/47s.jpg>
+Package pdftex.def Info: data/47s.jpg used on input line 819.
+(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
+File: data/48g.jpg Graphic file (type jpg)
+ <use data/48g.jpg>
+Package pdftex.def Info: data/48g.jpg used on input line 819.
+(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
+File: data/48s.jpg Graphic file (type jpg)
+ <use data/48s.jpg>
+Package pdftex.def Info: data/48s.jpg used on input line 819.
+(pdftex.def)             Requested size: 37.93704pt x 28.45274pt.
+ [46
+
+] [47
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 832.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [69
+) [48
 
+] [49
 
-
+] [50
 
 ]
-<data/activations/output-0.png, id=387, 586.8324pt x 442.2924pt>
+<data/activations/output-0.png, id=437, 586.8324pt x 442.2924pt>
 File: data/activations/output-0.png Graphic file (type png)
 
 <use data/activations/output-0.png>
-Package pdftex.def Info: data/activations/output-0.png used on input line 857.
+Package pdftex.def Info: data/activations/output-0.png used on input line 859.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 857
+Overfull \vbox (7.25084pt too high) detected at line 859
  []
 
-[73
+[51
 
-
-
-
-] <data/activations/output-100.png, id=400, 586.8324pt x 442.2924pt>
+ <./data/activations/output-0.png>]
+<data/activations/output-100.png, id=445, 586.8324pt x 442.2924pt>
 File: data/activations/output-100.png Graphic file (type png)
 
 <use data/activations/output-100.png>
-Package pdftex.def Info: data/activations/output-100.png used on input line 861
+Package pdftex.def Info: data/activations/output-100.png used on input line 863
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 861
+Overfull \vbox (7.25084pt too high) detected at line 863
  []
 
-<data/activations/output-200.png, id=402, 586.8324pt x 442.2924pt>
+[52
+
+ <./data/activations/output-100.png>]
+<data/activations/output-200.png, id=453, 586.8324pt x 442.2924pt>
 File: data/activations/output-200.png Graphic file (type png)
 
 <use data/activations/output-200.png>
-Package pdftex.def Info: data/activations/output-200.png used on input line 865
+Package pdftex.def Info: data/activations/output-200.png used on input line 867
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 865
+Overfull \vbox (7.25084pt too high) detected at line 867
  []
 
-<data/activations/output-300.png, id=404, 586.8324pt x 442.2924pt>
+[53
+
+ <./data/activations/output-200.png>]
+<data/activations/output-300.png, id=461, 586.8324pt x 442.2924pt>
 File: data/activations/output-300.png Graphic file (type png)
 
 <use data/activations/output-300.png>
-Package pdftex.def Info: data/activations/output-300.png used on input line 869
+Package pdftex.def Info: data/activations/output-300.png used on input line 871
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 869
+Overfull \vbox (7.25084pt too high) detected at line 871
  []
 
-<data/activations/output-400.png, id=406, 586.8324pt x 442.2924pt>
+[54
+
+ <./data/activations/output-300.png>]
+<data/activations/output-400.png, id=470, 586.8324pt x 442.2924pt>
 File: data/activations/output-400.png Graphic file (type png)
 
 <use data/activations/output-400.png>
-Package pdftex.def Info: data/activations/output-400.png used on input line 873
+Package pdftex.def Info: data/activations/output-400.png used on input line 875
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 873
+Overfull \vbox (7.25084pt too high) detected at line 875
  []
 
-[77
+[55
 
-
-
-
- <./data/activations/output-0.png> <./data/activations/output-100.png> <./data/
-activations/output-200.png> <./data/activations/output-300.png>]
-<data/activations/output-500.png, id=424, 586.8324pt x 442.2924pt>
+ <./data/activations/output-400.png>]
+<data/activations/output-500.png, id=479, 586.8324pt x 442.2924pt>
 File: data/activations/output-500.png Graphic file (type png)
 
 <use data/activations/output-500.png>
-Package pdftex.def Info: data/activations/output-500.png used on input line 877
+Package pdftex.def Info: data/activations/output-500.png used on input line 879
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 877
+Overfull \vbox (7.25084pt too high) detected at line 879
  []
 
-<data/activations/output-600.png, id=426, 586.8324pt x 442.2924pt>
+[56
+
+ <./data/activations/output-500.png>]
+<data/activations/output-600.png, id=487, 586.8324pt x 442.2924pt>
 File: data/activations/output-600.png Graphic file (type png)
 
 <use data/activations/output-600.png>
-Package pdftex.def Info: data/activations/output-600.png used on input line 881
+Package pdftex.def Info: data/activations/output-600.png used on input line 883
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 881
+Overfull \vbox (7.25084pt too high) detected at line 883
  []
 
-<data/activations/output-700.png, id=428, 586.8324pt x 442.2924pt>
+[57
+
+ <./data/activations/output-600.png>]
+<data/activations/output-700.png, id=495, 586.8324pt x 442.2924pt>
 File: data/activations/output-700.png Graphic file (type png)
 
 <use data/activations/output-700.png>
-Package pdftex.def Info: data/activations/output-700.png used on input line 885
+Package pdftex.def Info: data/activations/output-700.png used on input line 887
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 885
+Overfull \vbox (7.25084pt too high) detected at line 887
  []
 
-<data/activations/output-800.png, id=430, 586.8324pt x 442.2924pt>
+[58
+
+ <./data/activations/output-700.png>]
+<data/activations/output-800.png, id=503, 586.8324pt x 442.2924pt>
 File: data/activations/output-800.png Graphic file (type png)
 
 <use data/activations/output-800.png>
-Package pdftex.def Info: data/activations/output-800.png used on input line 889
+Package pdftex.def Info: data/activations/output-800.png used on input line 891
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 889
+Overfull \vbox (7.25084pt too high) detected at line 891
  []
 
-[81
+[59
 
-
-
-
- <./data/activations/output-400.png> <./data/activations/output-500.png> <./dat
-a/activations/output-600.png> <./data/activations/output-700.png>]
-<data/activations/output-900.png, id=448, 586.8324pt x 442.2924pt>
+ <./data/activations/output-800.png>]
+<data/activations/output-900.png, id=511, 586.8324pt x 442.2924pt>
 File: data/activations/output-900.png Graphic file (type png)
 
 <use data/activations/output-900.png>
-Package pdftex.def Info: data/activations/output-900.png used on input line 893
+Package pdftex.def Info: data/activations/output-900.png used on input line 895
 .
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 893
+Overfull \vbox (7.25084pt too high) detected at line 895
  []
 
-<data/activations/output-1000.png, id=450, 586.8324pt x 442.2924pt>
+[60
+
+ <./data/activations/output-900.png>]
+<data/activations/output-1000.png, id=519, 586.8324pt x 442.2924pt>
 File: data/activations/output-1000.png Graphic file (type png)
 
 <use data/activations/output-1000.png>
 Package pdftex.def Info: data/activations/output-1000.png used on input line 89
-7.
+9.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 897
+Overfull \vbox (7.25084pt too high) detected at line 899
  []
 
-<data/activations/output-2000.png, id=452, 586.8324pt x 442.2924pt>
+[61
+
+ <./data/activations/output-1000.png>]
+<data/activations/output-2000.png, id=528, 586.8324pt x 442.2924pt>
 File: data/activations/output-2000.png Graphic file (type png)
 
 <use data/activations/output-2000.png>
 Package pdftex.def Info: data/activations/output-2000.png used on input line 90
-1.
+3.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 901
+Overfull \vbox (7.25084pt too high) detected at line 903
  []
 
-<data/activations/output-3000.png, id=454, 586.8324pt x 442.2924pt>
+[62
+
+ <./data/activations/output-2000.png>]
+<data/activations/output-3000.png, id=536, 586.8324pt x 442.2924pt>
 File: data/activations/output-3000.png Graphic file (type png)
 
 <use data/activations/output-3000.png>
 Package pdftex.def Info: data/activations/output-3000.png used on input line 90
-5.
+7.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 905
+Overfull \vbox (7.25084pt too high) detected at line 907
  []
 
-[85
+[63
 
-
-
-
- <./data/activations/output-800.png> <./data/activations/output-900.png> <./dat
-a/activations/output-1000.png> <./data/activations/output-2000.png>]
-<data/activations/output-4000.png, id=471, 586.8324pt x 442.2924pt>
+ <./data/activations/output-3000.png>]
+<data/activations/output-4000.png, id=544, 586.8324pt x 442.2924pt>
 File: data/activations/output-4000.png Graphic file (type png)
 
 <use data/activations/output-4000.png>
-Package pdftex.def Info: data/activations/output-4000.png used on input line 90
-9.
+Package pdftex.def Info: data/activations/output-4000.png used on input line 91
+1.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 909
+Overfull \vbox (7.25084pt too high) detected at line 911
  []
 
-<data/activations/output-5000.png, id=473, 586.8324pt x 442.2924pt>
+[64
+
+ <./data/activations/output-4000.png>]
+<data/activations/output-5000.png, id=552, 586.8324pt x 442.2924pt>
 File: data/activations/output-5000.png Graphic file (type png)
 
 <use data/activations/output-5000.png>
 Package pdftex.def Info: data/activations/output-5000.png used on input line 91
-3.
+5.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 913
+Overfull \vbox (7.25084pt too high) detected at line 915
  []
 
-<data/activations/output-10000.png, id=475, 586.8324pt x 442.2924pt>
+[65
+
+ <./data/activations/output-5000.png>]
+<data/activations/output-10000.png, id=560, 586.8324pt x 442.2924pt>
 File: data/activations/output-10000.png Graphic file (type png)
 
 <use data/activations/output-10000.png>
 Package pdftex.def Info: data/activations/output-10000.png used on input line 9
-17.
+19.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 917
+Overfull \vbox (7.25084pt too high) detected at line 919
  []
 
-<data/activations/output-15000.png, id=477, 586.8324pt x 442.2924pt>
+[66
+
+ <./data/activations/output-10000.png>]
+<data/activations/output-15000.png, id=568, 586.8324pt x 442.2924pt>
 File: data/activations/output-15000.png Graphic file (type png)
 
 <use data/activations/output-15000.png>
 Package pdftex.def Info: data/activations/output-15000.png used on input line 9
-21.
+23.
 (pdftex.def)             Requested size: 302.01163pt x 227.62204pt.
 
-Overfull \vbox (7.25084pt too high) detected at line 921
+Overfull \vbox (7.25084pt too high) detected at line 923
  []
 
-[89
+[67
 
+ <./data/activations/output-15000.png>] (./vortrag.bbl) [68
 
-
-
- <./data/activations/output-3000.png> <./data/activations/output-4000.png> <./d
-ata/activations/output-5000.png> <./data/activations/output-10000.png>]
-
-LaTeX Warning: Citation `GoBeCo16' undefined on input line 929.
-
-No file vortrag.bbl.
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
 \openout6 = `vortrag.nav'.
 
@@ -2019,15 +1869,11 @@ No file vortrag.bbl.
 \tf@snm=\write8
 \openout8 = `vortrag.snm'.
 
-[91
-
-
- <./data/activations/output-15000.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 931.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 931.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 933.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 933.
  (./vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 931.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 931.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 933.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 933.
 Package rerunfilecheck Info: File `vortrag.out' has not changed.
 (rerunfilecheck)             Checksum: D1BD1340E3DE9FB4D435861003C117EA;263.
 
@@ -2038,28 +1884,25 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 933.
  ) 
 Here is how much of TeX's memory you used:
- 21140 strings out of 494935
- 394506 string characters out of 6178121
- 552158 words of memory out of 5000000
- 23607 multiletter control sequences out of 15000+600000
- 24914 words of font info for 62 fonts, out of 8000000 for 9000
+ 20870 strings out of 494935
+ 389812 string characters out of 6178121
+ 500759 words of memory out of 5000000
+ 23380 multiletter control sequences out of 15000+600000
+ 24452 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,17n,72p,438b,1098s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/ar
-ne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/arne/.texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/arne/.texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecsx1095.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknapp
+ 51i,17n,72p,449b,1089s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.450pk> </home/ar
+ne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/arne/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/arne/.texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecss1000.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknapp
 en/ec/ecsx0800.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi08
-00.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk> </
-home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/arne/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600pk> </home/arne/.texmf-var/fon
-ts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </home/arne/.texmf-var/fonts/pk/ljfour
+00.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </
+home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/arne/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/arne/.texmf-var/fon
+ts/pk/ljfour/jknappen/ec/ecsi0600.600pk> </home/arne/.texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecss0600.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec
 /ecss1440.600pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
 0pk> </home/arne/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk></usr/sh
@@ -2075,10 +1918,10 @@ m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb>
-Output written on vortrag.pdf (23 pages, 3030554 bytes).
+Output written on vortrag.pdf (68 pages, 3066319 bytes).
 PDF statistics:
- 923 PDF objects out of 1000 (max. 8388607)
- 497 compressed objects within 5 object streams
- 188 named destinations out of 1000 (max. 500000)
+ 1072 PDF objects out of 1200 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
  341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
