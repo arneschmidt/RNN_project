@@ -1,6 +1,6 @@
 # RNN_project
 
-This is a project that simulates image processing of an autonomous car with machine learning. Please check out the [presentation](./RNN-presentation/vortrag.pdf) for further information
+This is a project that simulates image processing of an autonomous car with machine learning. Please check out the [presentation](./RNN-presentation/vortrag.pdf) for further information.
 
 The aim is to construct a very simple task of semantic segmentation with just two classes but with time dependency. This means that the training and test data consist of series of images. This time dependency is exploited by a simple RNN leading to a better result than just a CNN that processes single images.
 
